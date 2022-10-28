@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Flex Box</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <section class="presentation">
+
+        <div class="screen" id="screen">
+
+            <ul class="list" id="list">
+                <li> 1 </li>
+                <li> 2 </li>
+                <li> 3 </li>
+                <li> 4 </li>
+                <li> 5 </li>
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="container style-properties">
+
+        <div class="list-child">
+            <label for="no_of_child">
+                <h2> No.of child </h2>
+            </label>
+            <input type="number" id="no_of_child" min="1" max="100" value="5" style="margin-left: 0;" />
+        </div>
+
+        <!--  Basic Flex box Properties -->
+        <div class=" directions">
+
+            <div class="divider">
+
+                <div>
+                    <label for="btn-flex">
+                        <h2 style="display:inline;">FlexBox</h2>
+                    </label>
+                    <input type="checkbox" id="btn-flex" />
+                </div>
+
+            </div>
+
+            <div class="divider">
+                <div>
+                    <label for="btn-flex-row"> flex-direction: row </label>
+                    <input type="radio" id="btn-flex-row" name="flex-direction" value="row" checked />
+                </div>
+
+                <div>
+                    <label for="btn-flex-col"> flex-direction: column </label>
+                    <input type="radio" id="btn-flex-col" name="flex-direction" value="column" />
+                </div>
+            </div>
+
+            <div class="divider">
+                <div>
+                    <label for="btn-flex-no-wrap"> flex-wrap: nowrap </label>
+                    <input type="radio" id="btn-flex-no-wrap" name="flex-wrap" value="nowrap" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-wrap"> flex-wrap: wrap </label>
+                    <input type="radio" id="btn-flex-wrap" name="flex-wrap" value="wrap" />
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--  Basic Flex box Justify content Properties -->
+        <div class="justify-content">
+            <div class="title-section">
+                <h2>Justify Content</h2>
+                <img src="./double-arrow.png" alt="picture pointing x-axis">
+            </div>
+
+            <div class="divider">
+                <div>
+                    <label for="btn-flex-justify-normal"> normal (default) </label>
+                    <input type="radio" id="btn-flex-justify-normal" name="justify-content" value="normal" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-justify-start"> flex-start (left) </label>
+                    <input type="radio" id="btn-flex-justify-start" name="justify-content" value="flex-start" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-justify-center"> center </label>
+                    <input type="radio" id="btn-flex-justify-center" name="justify-content" value="center" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-justify-end"> flex-end (right) </label>
+                    <input type="radio" id="btn-flex-justify-end" name="justify-content" value="flex-end" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-justify-between"> space-between </label>
+                    <input type="radio" id="btn-flex-justify-between" name="justify-content" value="space-between" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-justify-around"> space-around </label>
+                    <input type="radio" id="btn-flex-justify-around" name="justify-content" value="space-around" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-justify-evenly"> space-evenly </label>
+                    <input type="radio" id="btn-flex-justify-evenly" name="justify-content" value="space-evenly" />
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!--  Basic Flex box Justify content Properties -->
+        <div class="align-content">
+            <div class="title-section">
+                <h2>Align Content</h2>
+                <img src="./double-arrow.png" alt="picture pointing x-axis" style="transform: rotate(90deg);">
+            </div>
+
+            <div class="divider">
+                <div>
+                    <label for="btn-flex-align-normal"> normal (default) </label>
+                    <input type="radio" id="btn-flex-align-normal" name="align-content" value="normal" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-align-start"> flex-start (left) </label>
+                    <input type="radio" id="btn-flex-align-start" name="align-content" value="flex-start" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-align-center"> center </label>
+                    <input type="radio" id="btn-flex-align-center" name="align-content" value="center" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-align-end"> flex-end (right) </label>
+                    <input type="radio" id="btn-flex-align-end" name="align-content" value="flex-end" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-align-between"> space-between </label>
+                    <input type="radio" id="btn-flex-align-between" name="align-content" value="space-between" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-align-around"> space-around </label>
+                    <input type="radio" id="btn-flex-align-around" name="align-content" value="space-around" />
+                </div>
+
+                <div>
+                    <label for="btn-flex-align-evenly"> space-evenly </label>
+                    <input type="radio" id="btn-flex-align-evenly" name="align-content" value="space-evenly" />
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

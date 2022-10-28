@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    padding: 16px;
+}
+
+label {
+    margin-right: 12px;
+}
+
+li {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    list-style: none;
+}
+
+.presentation {
+    width: auto;
+    height: 70vh;
+    display: flex;
+}
+
+.screen {
+    margin: auto;
+    width: 80%;
+    max-width: 80%;
+    height: 80%;
+    max-height: 80%;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px 3px #ccc;
+    resize: both;
+}
+
+.screen ul {
+    height: -webkit-fill-available;
+}
+
+.divider {
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+.style-properties {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+}
+
+.title-section > img {
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
